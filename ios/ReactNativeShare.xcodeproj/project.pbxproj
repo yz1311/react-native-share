@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CCA58F621DD194E00D47B23 /* sharemodule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA58F521DD194E00D47B23 /* sharemodule.m */; };
 		D940560C1F160BC300DA377D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94055EF1F160BC300DA377D /* Bolts.framework */; };
 		D940560D1F160BC300DA377D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94055F11F160BC300DA377D /* FBSDKCoreKit.framework */; };
 		D940560E1F160BC300DA377D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94055F21F160BC300DA377D /* FBSDKLoginKit.framework */; };
@@ -23,8 +24,6 @@
 		D94056191F160BC300DA377D /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D94056081F160BC300DA377D /* libUMSocialLog.a */; };
 		D940561A1F160BC300DA377D /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D940560A1F160BC300DA377D /* UMSocialSDKResources.bundle */; };
 		D940561B1F160BC300DA377D /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D940560B1F160BC300DA377D /* UShareUI.framework */; };
-		D94056371F160BF100DA377D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D94056361F160BF100DA377D /* libsqlite3.tbd */; };
-		D94056391F160BFC00DA377D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94056381F160BFC00DA377D /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ReactNativeShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* ReactNativeShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* ReactNativeShare-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeShare-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ReactNativeShare-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeShare-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ReactNativeShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ReactNativeShareTests.xctest; path = "/Users/zhaoyang/react-native-share/ios/build/Debug-iphoneos/ReactNativeShareTests.xctest"; sourceTree = "<absolute>"; };
+		0CCA58F421DD194D00D47B23 /* sharemodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sharemodule.h; path = ReactNativeShare/sharemodule.h; sourceTree = "<group>"; };
+		0CCA58F521DD194E00D47B23 /* sharemodule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sharemodule.m; path = ReactNativeShare/sharemodule.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactNativeShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ReactNativeShare.app; path = "/Users/zhaoyang/react-native-share/ios/build/Debug-iphoneos/ReactNativeShare.app"; sourceTree = "<absolute>"; };
+		2D02E47B1E0B4A5D006451C7 /* ReactNativeShare-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ReactNativeShare-tvOS.app"; path = "/Users/zhaoyang/react-native-share/ios/build/Debug-appletvos/ReactNativeShare-tvOS.app"; sourceTree = "<absolute>"; };
+		2D02E4901E0B4A5D006451C7 /* ReactNativeShare-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ReactNativeShare-tvOSTests.xctest"; path = "/Users/zhaoyang/react-native-share/ios/build/Debug-appletvos/ReactNativeShare-tvOSTests.xctest"; sourceTree = "<absolute>"; };
 		D94055EF1F160BC300DA377D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D94055F01F160BC300DA377D /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
 		D94055F11F160BC300DA377D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -71,8 +72,6 @@
 		D94056081F160BC300DA377D /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
 		D940560A1F160BC300DA377D /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		D940560B1F160BC300DA377D /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
-		D94056361F160BF100DA377D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		D94056381F160BFC00DA377D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94056391F160BFC00DA377D /* CoreGraphics.framework in Frameworks */,
-				D94056371F160BF100DA377D /* libsqlite3.tbd in Frameworks */,
 				D94056141F160BC300DA377D /* libSocialUniqueId.a in Frameworks */,
 				D94056121F160BC300DA377D /* libSocialQQ.a in Frameworks */,
 				D94056171F160BC300DA377D /* UMSocialNetwork.framework in Frameworks */,
@@ -126,6 +123,8 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeShare */ = {
 			isa = PBXGroup;
 			children = (
+				0CCA58F421DD194D00D47B23 /* sharemodule.h */,
+				0CCA58F521DD194E00D47B23 /* sharemodule.m */,
 				D94055EC1F160BC300DA377D /* UMSocial */,
 			);
 			name = ReactNativeShare;
@@ -135,23 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAE1A68108700A75B9A /* ReactNativeShare */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				D94056351F160BF100DA377D /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeShare.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeShareTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ReactNativeShare-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ReactNativeShare-tvOSTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
 		};
 		D94055EC1F160BC300DA377D /* UMSocial */ = {
 			isa = PBXGroup;
@@ -252,15 +238,6 @@
 				D940560B1F160BC300DA377D /* UShareUI.framework */,
 			);
 			path = UMSocialUI;
-			sourceTree = "<group>";
-		};
-		D94056351F160BF100DA377D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D94056381F160BFC00DA377D /* CoreGraphics.framework */,
-				D94056361F160BF100DA377D /* libsqlite3.tbd */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +353,7 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
-			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			productRefGroup = 83CBB9F61A601CBA00E9B192;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -464,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCA58F621DD194E00D47B23 /* sharemodule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

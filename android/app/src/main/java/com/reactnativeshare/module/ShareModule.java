@@ -10,8 +10,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
-import com.d3o.R;
-import com.d3o.sharemodule.utils.BitMapUtil;
+
+import com.reactnativeshare.module.utils.BitMapUtil;
+
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
